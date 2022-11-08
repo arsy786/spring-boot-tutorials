@@ -1,6 +1,6 @@
 # spring-boot-tutorials
 
-### Spring Boot Sample Project: [Football Club Management System (FCMS)](https://github.com/arsy786/football-club-management-system)
+> Spring Boot Sample Project: [Football Club Management System (FCMS)](https://github.com/arsy786/football-club-management-system)
 
 Spring Boot is basically an extension of the Spring framework, which eliminates the boilerplate configurations required for setting up a Spring application.
 Spring Boot provides a number of opinionated default configs and starter dependencies for different Spring modules. Some of the most commonly used ones are:
@@ -102,15 +102,17 @@ NOTE: ACID = “Atomicity”, “Consistency”, “Isolation”, and “Durabil
 
 SQL:
 <br>
-Link to: [SQL Cheat Sheet (PDF)](https://github.com/arsy786/prerequisites-and-extra-tutorials/blob/main/sql-basics-cheat-sheet-ledger.pdf)
+> Link to: [SQL Cheat Sheet (PDF)](https://github.com/arsy786/prerequisites-and-extra-tutorials/blob/main/sql-basics-cheat-sheet-ledger.pdf)
 <br>
+
 Link to: [PostgreSQL CRASH COURSE (YouTube/TroyAmelotte)](https://www.youtube.com/watch?v=zw4s3Ey8ayo)
 <br>
 
 MongoDB (NoSQL):
 <br>
-Link to: [MongoDB Cheat Sheet (PDF)](https://github.com/arsy786/prerequisites-and-extra-tutorials/blob/main/MongoDB-Dark.pdf)
+> Link to: [MongoDB Cheat Sheet (PDF)](https://github.com/arsy786/prerequisites-and-extra-tutorials/blob/main/MongoDB-Dark.pdf)
 <br>
+
 Link to: [MongoDB Cheat Sheet (GitHub)](https://gist.github.com/bradtraversy/f407d642bdc3b31681bc7e56d95485b6)
 <br>
 Link to: [How do NoSQL databases work? (YouTube/SimplyExplained)](https://www.youtube.com/watch?v=0buKQHokLK8)
@@ -204,6 +206,10 @@ Link to: [Spring Data JPA Tutorial (YouTube/DailyCodeBuffer)](https://www.youtub
 <br>
 
 ### 3.3 Spring Data MongoDB
+
+> Spring Data MongoDB Sample Project:
+> **[Spring Boot MongoDB REST API](https://github.com/arsy786/spring-boot-mongodb-rest-api#24-creating-rest-api-service--controller)**
+
 
 Link to: [Spring Data MongoDB Tutorial (ProgrammingTechie)](https://programmingtechie.com/2021/01/06/spring-data-mongodb-tutorial/)
 <br>
@@ -326,8 +332,8 @@ Translated into the SQL Server language, this means that when a transaction impo
 Testing is a very important topic and has a variety of implementations.
 There are a few different approaches to testing available in Spring Boot.
 
-Testing in REST APIs is covered in the FCMS Spring Boot project which has a dedicated Testing section: 
-**[Football Club Management System - Testing (Sample SB Project)](https://github.com/arsy786/football-club-management-system#43-testing)**
+> Testing in REST APIs is covered in the FCMS Spring Boot project which has a dedicated Testing section:
+> **[Football Club Management System - Testing (Sample SB Project)](https://github.com/arsy786/football-club-management-system#43-testing)**
 
 Link to: [What is Postman? (YouTube/ITIndustryExposure)](https://www.youtube.com/watch?v=E0f9DUEN_jI)
 <br>
