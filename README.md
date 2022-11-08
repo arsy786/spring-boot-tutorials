@@ -1,6 +1,9 @@
 # spring-boot-tutorials
 
-> Spring Boot Sample Project: [Football Club Management System (FCMS)](https://github.com/arsy786/football-club-management-system)
+> Spring Boot Sample Project (Basic): [Spring Boot MongoDB REST API](https://github.com/arsy786/spring-boot-mongodb-rest-api#24-creating-rest-api-service--controller)
+
+> Spring Boot Sample Project (Advanced): [Football Club Management System (FCMS)](https://github.com/arsy786/football-club-management-system)
+
 
 Spring Boot is basically an extension of the Spring framework, which eliminates the boilerplate configurations required for setting up a Spring application.
 Spring Boot provides a number of opinionated default configs and starter dependencies for different Spring modules. Some of the most commonly used ones are:
