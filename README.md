@@ -334,8 +334,13 @@ Translated into the SQL Server language, this means that when a transaction impo
 
 Testing is a very important topic and has a variety of implementations.
 There are a few different approaches to testing available in Spring Boot.
+One must be familiar with Testing in Java core as a prerequisite.
 
-> Testing in REST APIs is covered in the FCMS Spring Boot project which has a dedicated Testing section:
+> Testing in Java core is covered in:
+> **[Java Quick Reference - 18. Test Driven Development](https://github.com/arsy786/prerequisites-and-extra-tutorials/blob/main/Java_QuickReference_v1.1.pdf)**
+
+
+> Testing in SB REST APIs is covered in:
 > **[Football Club Management System - Testing (Sample SB Project)](https://github.com/arsy786/football-club-management-system#43-testing)**
 
 Link to: [What is Postman? (YouTube/ITIndustryExposure)](https://www.youtube.com/watch?v=E0f9DUEN_jI)
@@ -347,16 +352,5 @@ Link to: [Convert Java to JSON & Json to Java Object | ObjectMapper (YouTube/Swa
 
 ## 7. Microservices
 
-sections: Spring Cloud, Docker and k8s, Message Queues [SQS, Kafka, RabbitMQ]
-
-- Microservices:
-  Microservices Explained and their Pros & Cons [Hussein Nasser]
-  Kubernetes in 5 mins [VMware Cloud Native Apps]
-  What is Kubernetes? [Google Cloud Tech]
-  Java and Spring Boot Microservices [Amigoscode]
-  Spring Boot Microservices Project Example - Part 1 | Building Services [Programming Techie]
-
-
-
-- Message Queues:
-  What is a Message Queue and When should you use Messaging Queue Systems Like RabbitMQ and Kafka [Hussein Nasser]
+> Microservices are covered in:
+> **[Spring Boot Microservices](https://github.com/arsy786/spring-boot-microservices)**
