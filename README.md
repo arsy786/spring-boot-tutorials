@@ -129,18 +129,32 @@ Each row of a table is called a "Record". Each column is called a "Field" or "At
 
 ### 1.3 Primary Keys and Relationships
 
-- Decide which attribute will serve as the PK.
-- PK is a unique identifier for a given entity.
-- Attributes chosen as PK’s should be unique, unchanging, and always present (never NULL or empty)
+<ins>Primary Keys
 
-*Can use multiple fields in conjunction as the pk (known as a composite key)
+You must decide which attribute will serve as the PK for a given Table.
+The PK is a unique identifier for a given entity.
+Attributes that are chosen as PK’s should be unique, unchanging, and always present (never NULL or empty).
+It must be noted that you can use multiple fields in conjunction to form a PK (known as a composite key).
 
-- Each entity can have a ship with every other one, but those ships are typically one of three types: One-to-One, One-to-Many, Many-to-Many.
-- To implement One-to-Many in a db, simply add the PK from the “one” side of the rship as an attribute in the Many table (becomes a fk). Table on the 1 side is considered a parent table to the child table on the other side.
-- To implement Many-to-Many in a db, must break it up into two one-to-many rships and create a new entity between the two tables.
-- Another way to analyse rships is to consider which side of the rship must exist for the other to exist. The non-mandatory side can be marked with a circle on the line where a dash would be. e.g. products must exist for orders to be made.
-- Recursive rships: Sometimes a table points back to itself. e.g. employee table might have a manager field that refers to another employee in same table.
-- Redundant rships: is one that is expressed more than once. It is best to delete the least useful link between the entities.
+<ins>Relationships
+
+Each entity can have a relationship with every other one, but those relationships are typically one of three types: 
+One-to-One, One-to-Many, Many-to-Many.
+
+To implement a One-to-Many relationship in a db, simply add the PK from the “One” side of the relationship as an attribute 
+in the "Many" table (this becomes a fk). The Table on the "One" side is considered a "Parent" table to the "Child" table on the other ("Many") side.
+
+To implement Many-to-Many relationship in a db, you must break it up into 2 One-to-Many relationships. 
+This is done by creating a new entity between the two tables.
+
+Another way to analyse relationship is to consider which side of the relationship must exist for the other table to exist. 
+The non-mandatory side can be marked (as shown above) with a circle on the line where a dash would be. 
+For example, as shown above, products must exist for orders to be made.
+
+<ins>Recursive and Redundant Relationships
+
+- Recursive relationship: sometimes a table points back to itself. e.g. employee table might have a manager field that refers to another employee in same table.
+- Redundant relationship: is one that is expressed more than once. It is best to delete the least useful link between the entities.
 
 ### 1.4 Normalising
 
