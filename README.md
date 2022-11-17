@@ -120,10 +120,10 @@ NOTE: Avoid placing the same data point in more than one table, this adds unnece
 Layout a visual representation of the db via an Entity Relationship Diagram (ERD).
 The ERD displays the table as a box with the title indicating the entity (Student) with the attributes listed below (StudentID, Birth Date, Grade Level etc.)
 
-![ERD](ERD.png)
-
 To convert lists of data into tables, start by creating a table for each type of entity, such as products, sales, customers, orders.
 To keep data consistent for all records, assign the appropriate data type to each column (e.g. VARCHAR, INT, etc.)
+
+![ERD](ERD.png)
 
 Each row of a table is called a "Record". Each column is called a "Field" or "Attribute".
 
@@ -292,7 +292,7 @@ It allows us to map our domain model directly to the database structure and then
 
 Before JPA, we used JDBC API to query these relational databases. 
 With JDBC, we have to provide native SQL queries as well as handling cumbersome JDBC components like Connection, ResultSet, etc. Writing those String representations of SQL was not 
-only tedious but also error-prone. Moreover, query syntax may change when you change your database.
+only tedious but also error-prone. Moreover,the query syntax may change when you change your database.
 
 ### 4.3 Hibernate
 
@@ -359,13 +359,13 @@ Spring JdbcTemplate eliminates all the above-mentioned problems of JDBC API. It 
 ### 5.2 Spring Data JPA
 
 The Spring Data JPA is one of the many Spring Data projects, and it aims towards bringing consistency in accessing data for relational 
-datastores. Many people consider Spring Data JPA is a JPA implementation. In reality, this is not the case. 
+datastores. Many people believe Spring Data JPA is a JPA implementation. In reality, this is not the case. 
 Spring Data JPA uses a default JPA Implementation called Hibernate. The default JPA implementation is configurable, and if we wish, 
 we can use other implementations as well.
 
 Spring Data JPA brings in the concept of JPA Repositories, a set of Interfaces that defines query methods. 
 The @Repository and @Entity Bean represent the DAO layer in the application. No need to write native queries anymore. 
-We do have the option of writing queries or part of queries (where necessary_, but those are JQL queries and not native database queries.
+Nonetheless, we do have the option of writing queries or part of queries (when necessary), but those are JQL queries and not native database queries.
 
 <ins>Supporting Material
 
