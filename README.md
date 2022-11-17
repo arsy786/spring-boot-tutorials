@@ -272,7 +272,7 @@ Locks are held on SQL Server resources, such as rows read or modified during a t
 ## 4. Java Database Connectivity
 
 You have a java program on one side and the relational database on the other side. 
-Let's check what happens when you connect these and get an overview of the tools which can you help to do this.
+Let's check what happens when you connect these and get an overview of the tools which can help you to do this.
 
 ![java to database connectivity](java-database.png)
 
